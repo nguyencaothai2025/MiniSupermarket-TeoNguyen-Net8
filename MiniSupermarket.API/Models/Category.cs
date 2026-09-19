@@ -7,7 +7,7 @@
 namespace MiniSupermarket.API.Models
 {
     // Lớp biểu diễn thực thể Nhóm hàng hóa trong siêu thị mini
-    public class Category
+    public class Category  // class thuc the
     {
         // Mã định danh nhóm hàng (Khóa chính)
         public int CategoryId { get; set; }
