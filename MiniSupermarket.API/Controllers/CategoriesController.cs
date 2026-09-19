@@ -102,7 +102,7 @@ namespace MiniSupermarket.API.Controllers
             return NoContent();
         }
 
-        // 4. Kiểm tra quyền Admin (Chỉ tài khoản có Role = Admin mới được gọi)
+        // 4. Kiểm tra quyền Admin (Chỉ tài khoản có Role = Admin mới được gọi) -- bai tap buoi 2
         [HttpGet("admin-dashboard")]
         [Authorize(Roles = "Admin")]
         public IActionResult GetAdminDashboard()
