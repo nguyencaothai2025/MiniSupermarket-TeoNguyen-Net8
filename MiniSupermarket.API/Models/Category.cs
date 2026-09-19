@@ -2,6 +2,7 @@
  *  ho ten sinh vien: Nguyen Van Teo
  *  ma sinh vien: 123456789
  *  Ngay tao: 15/09/2026 
+ *  mo ta: ....
  */
 namespace MiniSupermarket.API.Models
 {
