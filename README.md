@@ -58,3 +58,27 @@ Mã sinh viên: 123456789
 
 
 Lớp học phần: CQQ2411C
+=======================================================================================================================
+BUỔI 2: BẢO MẬT & PHÂN QUYỀN JWT CHO WEB API
+1. MỤC TIÊU BUỔI 2
+Lý thuyết: Nắm vững cơ chế xác thực không trạng thái (Stateless Authentication) với JWT (JSON Web Token), hiểu cách sử dụng
+Data Annotations để xác thực dữ liệu đầu vào và ứng dụng Action Filters để tùy biến vòng đời Request.
+
+Thực hành: Tích hợp AuthController cấp phát token vào dự án MiniSupermarket.API, đồng thời cập nhật WinForms Client để quản
+lý phiên đăng nhập và đính kèm Bearer Token khi gọi API.
+
+
+=======================================================================================================================
+BUỔI 3: TÍCH HỢP SQL SERVER VÀ ENTITY FRAMEWORK CORE CODE-FIRST
+1. MỤC TIÊU VÀ BỐI CẢNH THỰC TẾ
+Mục tiêu:
+
+
+Thay thế hoàn toàn cơ chế lưu tạm trên RAM (In-Memory) ở Buổi 1 và Buổi 2 bằng cơ sở dữ liệu quan hệ Microsoft SQL Server.
+
+Làm chủ kỹ thuật Entity Framework Core (EF Core) Code-First: Viết lớp C# trước rồi tự động sinh bảng trong CSDL.
+
+Nắm vững các lệnh EF Core Migrations và truy vấn dữ liệu bất đồng bộ bằng LINQ (async/await).
+
+Bối cảnh thực tế đồ án: Khi nhân viên thu ngân thêm hoặc sửa nhóm hàng trên phần mềm WinForms, dữ liệu phải được lưu trữ vĩnh viễn trong CSDL MiniSupermarketDb của SQL Server, đảm bảo tắt máy hoặc khởi động lại API dữ liệu vẫn còn nguyên vẹn.
+
