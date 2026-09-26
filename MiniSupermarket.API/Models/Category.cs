@@ -2,7 +2,7 @@
  *  ho ten sinh vien: Nguyen Van Teo
  *  ma sinh vien: 123456789
  *  Ngay tao: 15/09/2026 
- *  mo ta: ....
+*  mo ta: thuc the Nhom Hang, tuong ung voiw table Categories tong CSDL
  */
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
