@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MiniSupermarket.API.Data;
 
@@ -10,9 +11,11 @@ using MiniSupermarket.API.Data;
 namespace MiniSupermarket.API.Migrations
 {
     [DbContext(typeof(SupermarketDbContext))]
-    partial class SupermarketDbContextModelSnapshot : ModelSnapshot
+    [Migration("20261001102549_Chay_lan_01")]
+    partial class Chay_lan_01
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -107,80 +110,6 @@ namespace MiniSupermarket.API.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
-
-                    b.HasData(
-                        new
-                        {
-                            ProductId = 1,
-                            Barcode = "893456789001",
-                            CategoryId = 1,
-                            Price = 12500m,
-                            ProductName = "Snack Khoai Tây O'Star Gói 60g",
-                            StockQuantity = 150
-                        },
-                        new
-                        {
-                            ProductId = 2,
-                            Barcode = "893456789002",
-                            CategoryId = 1,
-                            Price = 135000m,
-                            ProductName = "Bánh Quy Bơ Danisa Hộp Thiếc 454g",
-                            StockQuantity = 40
-                        },
-                        new
-                        {
-                            ProductId = 3,
-                            Barcode = "893456789003",
-                            CategoryId = 2,
-                            Price = 10000m,
-                            ProductName = "Nước Ngọt Coca Cola Lon 320ml",
-                            StockQuantity = 320
-                        },
-                        new
-                        {
-                            ProductId = 4,
-                            Barcode = "893456789004",
-                            CategoryId = 2,
-                            Price = 6000m,
-                            ProductName = "Nước Khoáng Lavie Chai 500ml",
-                            StockQuantity = 200
-                        },
-                        new
-                        {
-                            ProductId = 5,
-                            Barcode = "893456789005",
-                            CategoryId = 3,
-                            Price = 34500m,
-                            ProductName = "Sữa Tươi Tiệt Trùng Vinamilk 1L",
-                            StockQuantity = 85
-                        },
-                        new
-                        {
-                            ProductId = 6,
-                            Barcode = "893456789006",
-                            CategoryId = 4,
-                            Price = 4500m,
-                            ProductName = "Mì Tôm Hảo Hảo Chua Cay Gói 75g",
-                            StockQuantity = 500
-                        },
-                        new
-                        {
-                            ProductId = 7,
-                            Barcode = "893456789007",
-                            CategoryId = 5,
-                            Price = 125000m,
-                            ProductName = "Dầu Ăn Simply Nguyên Chất Can 2L",
-                            StockQuantity = 45
-                        },
-                        new
-                        {
-                            ProductId = 8,
-                            Barcode = "893456789008",
-                            CategoryId = 5,
-                            Price = 30000m,
-                            ProductName = "Nước Mắm Nam Ngư Chai 900ml",
-                            StockQuantity = 90
-                        });
                 });
 
             modelBuilder.Entity("MiniSupermarket.API.Models.Product", b =>
