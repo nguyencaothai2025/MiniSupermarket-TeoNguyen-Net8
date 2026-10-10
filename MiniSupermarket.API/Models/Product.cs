@@ -2,7 +2,7 @@
  *  ho ten sinh vien: Nguyen Van Teo
  *  ma sinh vien: 123456789
  *  Ngay tao: 15/09/2026 
- *  mo ta: thuc the San Pham, tuong ung voiw table Products tong CSDL
+ *  mo ta: thuc the San Pham, tuong ung voi table Products trong CSDL
  */
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
