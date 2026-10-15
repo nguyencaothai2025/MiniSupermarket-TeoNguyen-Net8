@@ -1,8 +1,3 @@
-Dưới đây là nội dung hoàn chỉnh của tệp **`README.md`** cho kho lưu trữ GitHub của đồ án, được chuẩn hóa và mở rộng chi tiết từ **Buổi 1 đến Buổi 4** bám sát kiến trúc và tiến độ của môn học:
-
----
-
-```markdown
 # 🛒 HỆ THỐNG QUẢN LÝ SIÊU THỊ MINI (MINISUPERMARKET SYSTEM)
 > **Môn học:** Lập trình Ứng dụng .NET Core (Mã môn: 229162)  
 > **Nền tảng:** .NET 8.0 / C#  
